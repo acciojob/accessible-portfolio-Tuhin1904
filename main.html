@@ -3,11 +3,42 @@
 <html>
 
 <head>
+	<title>Accessible Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<header>
+		<h1 role="heading">
+			Accessible Portfolio
+		</h1>
+	</header>
+	<nav>
+		<ul role="list">
+			<li role="listitem"><a href="#project"> My Projects</a></li>
+			<li role="listitem"><a href="#git"> My Github</a></li>
+			<li role="listitem"><a href="#mycompany"> TG Solutions</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="projects">
+			<h2>My Project</h2>
+			<p>My project description</p>
+		</section>
+		<section id="git">
+			<h2>My Github Glances</h2>
+			<img src="myGitPics.jpg" alt="git_picture">
+			<p>The project documentation</p>
+		</section>
+		<section id="mycompany">
+			<h2>TG Solutions</h2>
+			<p>About my company</p>
+		</section>
+	</main>
+	<footer>
+		<p>Visit my portfolio again.</p>
+	</footer>
     <script type="text/javascript" src="./script.js">
 </script>
 
